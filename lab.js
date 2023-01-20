@@ -7,6 +7,14 @@
 */
 
 //CODE HERE
+let lovesCode = true;
+if (lovesCode === true) {
+  console.log("I love to code!");
+  let lovesCode = false;
+} else {
+  console.log("Coding has its challenges.");
+  let lovesCode = true;
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -22,6 +30,14 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+if (amysAge > brittanisAge) {
+  console.log("Amy is older");
+} else if (amysAge < brittanisAge) {
+  console.log("Brittani is older");
+} else {
+  console.log("They are the same age");
+}
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -29,6 +45,11 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if (amysBirthYear === brittanisBirthYear) {
+  console.log("Amy & Brittani were born in the same year");
+} else {
+  console.log("Amy & Brittani were not born in the same year");
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -41,6 +62,19 @@ let rain = true;
 */
 
 //CODE HERE
+if (rain === true && temperature >= 80) {
+  console.log("wear a t-shirt and take an umbrella");
+} else if (rain === false && temperature >= 80) {
+  console.log("wear a t-shirt");
+} else if (rain === true && temperature >= 60) {
+  console.log("wear a rain-jacket");
+} else if (rain === false && temperature >= 60) {
+  console.log("wear a light jacket");
+} else if (rain === true && temperature < 60) {
+  console.log("wear a jacket and carry an umbrella");
+} else if (rain === false && temperature < 60) {
+  console.log("wear a jacket");
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -49,6 +83,9 @@ let rain = true;
 */
 
 //CODE HERE
+for (let index = 0; index < 10; index++) {
+  console.log("hello");
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -57,7 +94,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let index = 0; index < 10; index++) {
+  console.log(index + 1);
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -65,8 +104,9 @@ let rain = true;
 */
 
 //CODE HERE
-
-
+for (let index = 0; index <= 10; index++) {
+  console.log(10 - index);
+}
 ////////// PROBLEM 8 //////////
 
 let score = 0;
